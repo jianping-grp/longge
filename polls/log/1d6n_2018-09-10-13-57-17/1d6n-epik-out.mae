@@ -1,0 +1,3456 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  2
+  1
+  W09IXWMxbltjSF1uYyhjMTIpW0NIMl1OPU4y 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    0.0390 
+    0.0390 
+    0.0000 
+    0.0764 
+  0.115427423885641
+  0
+  0
+    0.3986 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_Metal_State_Penalty
+  :::
+  1 15 45.721000 51.003000 3.640000 300 A 70 "PPO " " O6 " 8 FF2E2E   -0.912    1.640  1 2 4 3376 3374 2 "CCD match"  <>
+  2 2 44.919000 50.045000 3.621000 300 A 10 "PPO " " C6 " 6 1EE11E  <> <> 1 2 4 3377 3375 2 "CCD match"  <>
+  3 2 43.847000 49.778000 4.536000 300 A 10 "PPO " " C5 " 6 1EE11E  <> <> 1 2 4 3378 3376 2 "CCD match"  <>
+  4 25 43.415000 50.475000 5.647000 300 A 38 "PPO " " N7 " 7 2E2EFF  <> <> 1 2 4 3379 3377 2 "CCD match"  <>
+  5 25 42.414000 49.789000 6.103000 300 A 38 "PPO " " N8 " 7 2E2EFF  <> <> 1 2 4 3380 3378 2 "CCD match"  <>
+  6 3 42.148000 48.664000 5.358000 300 A 10 "PPO " " C9 " 6 1EE11E  <> <> 1 2 4 3381 3379 2 "CCD match"  <>
+  7 2 43.069000 48.644000 4.340000 300 A 10 "PPO " " C4 " 6 1EE11E  <> <> 1 2 4 3382 3380 2 "CCD match"  <>
+  8 25 43.177000 47.692000 3.346000 300 A 38 "PPO " " N3 " 7 2E2EFF   -0.173    1.100  1 2 4 3383 3381 2 "CCD match"    0.3986 
+  9 2 44.188000 47.937000 2.474000 300 A 10 "PPO " " C2 " 6 1EE11E  <> <> 1 2 4 3384 3382 2 "CCD match"  <>
+  10 25 45.021000 49.057000 2.601000 300 A 38 "PPO " " N1 " 7 2E2EFF  <> <> 1 2 4 3385 3383 2 "CCD match"  <>
+  11 41 42.245359 47.771692 5.993851 300 A 21 "PPO " " H91" 1 FFFFFF  <> <> <> <> <> <> 6822 <> <> <>
+  12 41 41.123886 48.721053 4.960589 300 A 21 "PPO " " H92" 1 FFFFFF  <> <> <> <> <> <> 6823 <> <> <>
+  13 41 44.369197 47.259090 1.653021 300 A 21 "PPO " " H2 " 1 FFFFFF  <> <> <> <> <> <> 6824 <> <> <>
+  14 43 45.801746 49.140383 1.830622 300 A 21 "PPO " "    " 1 <>   8.167    2.220  <> <> <> <> <> <> <>   2.8689 
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 2 3 1
+  3 2 10 1
+  4 3 4 1
+  5 3 7 2
+  6 4 5 2
+  7 5 6 1
+  8 6 7 1
+  9 6 11 1
+  10 6 12 1
+  11 7 8 1
+  12 8 9 2
+  13 9 10 1
+  14 9 13 1
+  15 10 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  2
+  1
+  W09IXWMxbltjSF1uYyhjMTIpW0NIMl1OPU4y 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    0.3210 
+    0.3210 
+    0.0000 
+    1.5669 
+  1.88791146064127
+  0
+  0
+    1.8891 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_Metal_State_Penalty
+  :::
+  1 15 45.721000 51.003000 3.640000 300 A 70 "PPO " " O6 " 8 FF2E2E   -1.484    1.500  1 2 4 3376 3374 2 "CCD match"  <>
+  2 2 44.919000 50.045000 3.621000 300 A 10 "PPO " " C6 " 6 1EE11E  <> <> 1 2 4 3377 3375 2 "CCD match"  <>
+  3 2 43.847000 49.778000 4.536000 300 A 10 "PPO " " C5 " 6 1EE11E  <> <> 1 2 4 3378 3376 2 "CCD match"  <>
+  4 25 43.415000 50.475000 5.647000 300 A 38 "PPO " " N7 " 7 2E2EFF  <> <> 1 2 4 3379 3377 2 "CCD match"  <>
+  5 25 42.414000 49.789000 6.103000 300 A 38 "PPO " " N8 " 7 2E2EFF  <> <> 1 2 4 3380 3378 2 "CCD match"  <>
+  6 3 42.148000 48.664000 5.358000 300 A 10 "PPO " " C9 " 6 1EE11E  <> <> 1 2 4 3381 3379 2 "CCD match"  <>
+  7 2 43.069000 48.644000 4.340000 300 A 10 "PPO " " C4 " 6 1EE11E  <> <> 1 2 4 3382 3380 2 "CCD match"  <>
+  8 25 43.177000 47.692000 3.346000 300 A 38 "PPO " " N3 " 7 2E2EFF  <> <> 1 2 4 3383 3381 2 "CCD match"  <>
+  9 2 44.188000 47.937000 2.474000 300 A 10 "PPO " " C2 " 6 1EE11E  <> <> 1 2 4 3384 3382 2 "CCD match"  <>
+  10 25 45.021000 49.057000 2.601000 300 A 38 "PPO " " N1 " 7 2E2EFF    0.871    1.000  1 2 4 3385 3383 2 "CCD match"    1.8891 
+  11 41 42.245359 47.771692 5.993851 300 A 21 "PPO " " H91" 1 FFFFFF  <> <> <> <> <> <> 6822 <> <> <>
+  12 41 41.123886 48.721053 4.960589 300 A 21 "PPO " " H92" 1 FFFFFF  <> <> <> <> <> <> 6823 <> <> <>
+  13 41 44.369197 47.259090 1.653021 300 A 21 "PPO " " H2 " 1 FFFFFF  <> <> <> <> <> <> 6824 <> <> <>
+  14 43 42.479385 46.841893 3.320487 300 A 21 "PPO " "    " 1 <>   7.143    2.220  <> <> <> <> <> <> <>   5.4663 
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 2 3 1
+  3 2 10 1
+  4 3 4 1
+  5 3 7 2
+  6 4 5 2
+  7 5 6 1
+  8 6 7 1
+  9 6 11 1
+  10 6 12 1
+  11 7 8 1
+  12 8 9 1
+  13 8 14 1
+  14 9 10 2
+  15 9 13 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  2
+  1
+  W09IXWMxbltjSF1uYyhjMTIpW0NIMl1OPU4y 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.1475 
+    0.0000 
+    2.1475 
+    1.7754 
+  1.77535924203285
+  -1
+  1
+    0.4751 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[13] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_Metal_State_Penalty
+  :::
+  1 18 45.721000 51.003000 3.640000 300 A 70 "PPO " " O6 " 8 -1 FF2E2E    0.023    2.000  1 2 4 3376 3374 2 "CCD match"  <>
+  2 2 44.919000 50.045000 3.621000 300 A 10 "PPO " " C6 " 6 0 1EE11E  <> <> 1 2 4 3377 3375 2 "CCD match"  <>
+  3 2 43.847000 49.778000 4.536000 300 A 10 "PPO " " C5 " 6 0 1EE11E  <> <> 1 2 4 3378 3376 2 "CCD match"  <>
+  4 25 43.415000 50.475000 5.647000 300 A 38 "PPO " " N7 " 7 0 2E2EFF  <> <> 1 2 4 3379 3377 2 "CCD match"  <>
+  5 25 42.414000 49.789000 6.103000 300 A 38 "PPO " " N8 " 7 0 2E2EFF  <> <> 1 2 4 3380 3378 2 "CCD match"  <>
+  6 3 42.148000 48.664000 5.358000 300 A 10 "PPO " " C9 " 6 0 1EE11E  <> <> 1 2 4 3381 3379 2 "CCD match"  <>
+  7 2 43.069000 48.644000 4.340000 300 A 10 "PPO " " C4 " 6 0 1EE11E  <> <> 1 2 4 3382 3380 2 "CCD match"  <>
+  8 25 43.177000 47.692000 3.346000 300 A 38 "PPO " " N3 " 7 0 2E2EFF    7.143    2.220  1 2 4 3383 3381 2 "CCD match"    0.7310 
+  9 2 44.188000 47.937000 2.474000 300 A 10 "PPO " " C2 " 6 0 1EE11E  <> <> 1 2 4 3384 3382 2 "CCD match"  <>
+  10 25 45.021000 49.057000 2.601000 300 A 38 "PPO " " N1 " 7 0 2E2EFF    8.167    2.220  1 2 4 3385 3383 2 "CCD match"    0.4751 
+  11 41 42.245359 47.771692 5.993851 300 A 21 "PPO " " H91" 1 0 FFFFFF  <> <> <> <> <> <> 6822 <> <> <>
+  12 41 41.123886 48.721053 4.960589 300 A 21 "PPO " " H92" 1 0 FFFFFF  <> <> <> <> <> <> 6823 <> <> <>
+  13 41 44.369197 47.259090 1.653021 300 A 21 "PPO " " H2 " 1 0 FFFFFF  <> <> <> <> <> <> 6824 <> <> <>
+  :::
+ } 
+ m_bond[14] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 2 3 1
+  3 2 10 2
+  4 3 4 1
+  5 3 7 2
+  6 4 5 2
+  7 5 6 1
+  8 6 7 1
+  9 6 11 1
+  10 6 12 1
+  11 7 8 1
+  12 8 9 2
+  13 9 10 1
+  14 9 13 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    0.1986 
+    0.1986 
+    0.0000 
+    0.3830 
+  0.581570699417976
+  -5
+  5
+    0.3830 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.108    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.652    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    6.275    0.618 
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    6.275    0.618 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    4.135    2.220 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 18 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3405 3403 3 "CCD match"    6.243    0.945 
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    6.243    0.945 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  12.252    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.850    0.468 
+  :::
+ } 
+ m_bond[30] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.1875 
+    0.0964 
+    1.0911 
+    1.4380 
+  1.53446431372236
+  -4
+  4
+    1.4380 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.220    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.926    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    3.326    0.610 
+  13 16 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 0 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"  <> <>
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    4.135    2.220 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 18 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3405 3403 3 "CCD match"    6.243    0.945 
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    6.243    0.945 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  12.105    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.491    0.468 
+  31 42 39.496271 50.276008 11.003057 312 A 21 "PRP " "HO2P" 1 0 FFFFFF  <> <> <> <> 6834 <> <>   6.275    0.708 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 13 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.1875 
+    0.0964 
+    1.0911 
+    1.4380 
+  1.53446431372236
+  -4
+  4
+    1.4380 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.220    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.926    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 16 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 0 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"  <> <>
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    3.326    0.610 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    4.135    2.220 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 18 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3405 3403 3 "CCD match"    6.243    0.945 
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    6.243    0.945 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  12.105    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.491    0.468 
+  31 42 38.130825 50.683478 8.777635 312 A 21 "PRP " "HO1P" 1 0 FFFFFF  <> <> <> <> 6833 <> <>   6.275    0.708 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 12 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.2311 
+    0.1025 
+    1.1286 
+    1.4854 
+  1.58787678156404
+  -4
+  4
+    1.4854 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.190    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.652    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    6.275    0.618 
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    6.275    0.618 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 18 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3405 3403 3 "CCD match"    3.300    0.791 
+  21 16 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 0 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"  <> <>
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  12.145    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.850    0.468 
+  31 42 43.450812 41.746827 7.370602 312 A 21 "PRP " "HO2B" 1 0 FFFFFF  <> <> <> <> 6837 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  31 21 31 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.2311 
+    0.1025 
+    1.1286 
+    1.4854 
+  1.58787678156404
+  -4
+  4
+    1.4854 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.190    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.652    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    6.275    0.618 
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    6.275    0.618 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 16 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3405 3403 3 "CCD match"  <> <>
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    3.300    0.791 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  12.145    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.850    0.468 
+  31 42 41.587812 42.875863 8.931831 312 A 21 "PRP " "HO1B" 1 0 FFFFFF  <> <> <> <> 6836 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  31 20 31 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.2311 
+    0.1025 
+    1.1286 
+    1.4854 
+  1.58787678156404
+  -4
+  4
+    1.4854 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.190    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.652    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    6.275    0.618 
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    6.275    0.618 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 16 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3405 3403 3 "CCD match"  <> <>
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    3.300    0.791 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  12.145    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.850    0.468 
+  31 42 41.587812 42.875863 8.931831 312 A 21 "PRP " "    " 1 0 <> <> <> <> <> <> <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  31 20 31 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.5404 
+  2.54077039586842
+  -3
+  3
+    2.5404 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.302    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.926    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    3.326    0.610 
+  13 16 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 0 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"  <> <>
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 18 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3405 3403 3 "CCD match"    3.300    0.791 
+  21 16 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 0 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"  <> <>
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  11.998    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.491    0.468 
+  31 42 39.496271 50.276008 11.003057 312 A 21 "PRP " "HO2P" 1 0 FFFFFF  <> <> <> <> 6834 <> <>   6.275    0.708 
+  32 42 43.450812 41.746827 7.370602 312 A 21 "PRP " "HO2B" 1 0 FFFFFF  <> <> <> <> 6837 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 13 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 21 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.5404 
+  2.54077039586842
+  -3
+  3
+    2.5404 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.302    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.926    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 16 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 0 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"  <> <>
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    3.326    0.610 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 18 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3405 3403 3 "CCD match"    3.300    0.791 
+  21 16 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 0 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"  <> <>
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  11.998    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.491    0.468 
+  31 42 38.130825 50.683478 8.777635 312 A 21 "PRP " "HO1P" 1 0 FFFFFF  <> <> <> <> 6833 <> <>   6.275    0.708 
+  32 42 43.450812 41.746827 7.370602 312 A 21 "PRP " "HO2B" 1 0 FFFFFF  <> <> <> <> 6837 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 12 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 21 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.5404 
+  2.54077039586842
+  -3
+  3
+    2.5404 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.302    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.926    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 18 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"    3.326    0.610 
+  13 16 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 0 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"  <> <>
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 16 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3405 3403 3 "CCD match"  <> <>
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    3.300    0.791 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  11.998    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.491    0.468 
+  31 42 39.496271 50.276008 11.003057 312 A 21 "PRP " "HO2P" 1 0 FFFFFF  <> <> <> <> 6834 <> <>   6.275    0.708 
+  32 42 41.587812 42.875863 8.931831 312 A 21 "PRP " "HO1B" 1 0 FFFFFF  <> <> <> <> 6836 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 13 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 20 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  3
+  2
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.5404 
+  2.54077039586842
+  -3
+  3
+    2.5404 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 40.367000 46.067000 7.595000 312 A 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3386 3384 3 "CCD match"  <> <>
+  2 3 41.261000 45.693000 8.730000 312 A 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3387 3385 3 "CCD match"  <> <>
+  3 3 40.422000 45.820000 9.932000 312 A 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3388 3386 3 "CCD match"  <> <>
+  4 3 39.100000 46.232000 9.521000 312 A 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3389 3387 3 "CCD match"  <> <>
+  5 3 38.881000 47.412000 10.244000 312 A 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3390 3388 3 "CCD match"  <> <>
+  6 16 40.251000 45.010000 6.547000 312 A 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3391 3389 3 "CCD match"  <> <>
+  7 16 41.872000 44.368000 8.660000 312 A 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3392 3390 3 "CCD match"   -2.302    0.950 
+  8 16 40.256000 44.663000 10.749000 312 A 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3393 3391 3 "CCD match"   -1.926    0.950 
+  9 16 39.065000 46.388000 8.075000 312 A 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3394 3392 3 "CCD match"  <> <>
+  10 16 37.698000 48.065000 10.090000 312 A 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3395 3393 3 "CCD match"  <> <>
+  11 107 37.416000 49.634000 10.598000 312 A 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3396 3394 3 "CCD match"  <> <>
+  12 16 37.271000 50.501000 9.439000 312 A 70 "PRP " " O1P" 8 0 FF2E2E  1 6.89 4 3397 3395 3 "CCD match"  <> <>
+  13 18 38.490000 50.143000 11.427000 312 A 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3398 3396 3 "CCD match"    3.326    0.610 
+  14 15 36.124000 49.525000 11.358000 312 A 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3399 3397 3 "CCD match"  <> <>
+  15 107 40.287000 43.301000 6.498000 312 A 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3400 3398 3 "CCD match"  <> <>
+  16 18 39.241000 43.013000 7.477000 312 A 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3401 3399 3 "CCD match"    3.204    0.815 
+  17 15 39.566000 43.002000 5.234000 312 A 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3402 3400 3 "CCD match"  <> <>
+  18 16 41.009000 42.127000 7.007000 312 A 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3403 3401 3 "CCD match"  <> <>
+  19 107 41.419000 40.884000 7.747000 312 A 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3404 3402 3 "CCD match"  <> <>
+  20 16 41.406000 41.795000 9.025000 312 A 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3405 3403 3 "CCD match"  <> <>
+  21 18 42.875000 40.820000 7.510000 312 A 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3406 3404 3 "CCD match"    3.300    0.791 
+  22 15 41.178000 39.440000 7.856000 312 A 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3407 3405 3 "CCD match"  <> <>
+  23 41 40.793301 46.970042 7.133716 312 A 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6825 <> <> <> <>
+  24 41 42.147591 46.344115 8.732371 312 A 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6826 <> <> <> <>
+  25 41 40.951877 46.531946 10.581895 312 A 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6827 <> <> <> <>
+  26 41 38.287713 45.529235 9.758297 312 A 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6828 <> <> <> <>
+  27 41 38.942173 47.198585 11.321363 312 A 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6829 <> <> <> <>
+  28 41 39.645607 48.155082 9.973435 312 A 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6830 <> <> <> <>
+  29 42 42.531563 44.110259 7.818249 312 A 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6831 <> <>  11.998    0.580 
+  30 42 41.135749 44.165385 11.183075 312 A 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6832 <> <>  12.491    0.468 
+  31 42 38.130825 50.683478 8.777635 312 A 21 "PRP " "HO1P" 1 0 FFFFFF  <> <> <> <> 6833 <> <>   6.275    0.708 
+  32 42 41.587812 42.875863 8.931831 312 A 21 "PRP " "HO1B" 1 0 FFFFFF  <> <> <> <> 6836 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 12 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 20 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  5
+  3
+  W09IXWMxbltjSF1uYyhjMTIpW0NIMl1OPU4y 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    0.0390 
+    0.0390 
+    0.0000 
+    0.0764 
+  0.115427423885642
+  0
+  0
+    0.3986 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_Metal_State_Penalty
+  :::
+  1 15 46.638000 15.791000 18.567000 301 B 70 "PPO " " O6 " 8 FF2E2E   -0.912    1.640  1 2 4 3409 3407 5 "CCD match"  <>
+  2 2 45.978000 15.175000 17.721000 301 B 10 "PPO " " C6 " 6 1EE11E  <> <> 1 2 4 3410 3408 5 "CCD match"  <>
+  3 2 46.433000 14.097000 16.890000 301 B 10 "PPO " " C5 " 6 1EE11E  <> <> 1 2 4 3411 3409 5 "CCD match"  <>
+  4 25 47.669000 13.483000 16.812000 301 B 38 "PPO " " N7 " 7 2E2EFF  <> <> 1 2 4 3412 3410 5 "CCD match"  <>
+  5 25 47.534000 12.568000 15.908000 301 B 38 "PPO " " N8 " 7 2E2EFF  <> <> 1 2 4 3413 3411 5 "CCD match"  <>
+  6 3 46.262000 12.524000 15.366000 301 B 10 "PPO " " C9 " 6 1EE11E  <> <> 1 2 4 3414 3412 5 "CCD match"  <>
+  7 2 45.529000 13.507000 15.988000 301 B 10 "PPO " " C4 " 6 1EE11E  <> <> 1 2 4 3415 3413 5 "CCD match"  <>
+  8 25 44.190000 13.834000 15.761000 301 B 38 "PPO " " N3 " 7 2E2EFF   -0.173    1.100  1 2 4 3416 3414 5 "CCD match"    0.3986 
+  9 2 43.744000 14.872000 16.552000 301 B 10 "PPO " " C2 " 6 1EE11E  <> <> 1 2 4 3417 3415 5 "CCD match"  <>
+  10 25 44.593000 15.517000 17.489000 301 B 38 "PPO " " N1 " 7 2E2EFF  <> <> 1 2 4 3418 3416 5 "CCD match"  <>
+  11 41 46.318544 12.706374 14.282698 301 B 21 "PPO " " H91" 1 FFFFFF  <> <> <> <> <> <> 6839 <> <> <>
+  12 41 45.819725 11.533494 15.548460 301 B 21 "PPO " " H92" 1 FFFFFF  <> <> <> <> <> <> 6840 <> <> <>
+  13 41 42.723370 15.214999 16.467935 301 B 21 "PPO " " H2 " 1 FFFFFF  <> <> <> <> <> <> 6841 <> <> <>
+  14 43 44.124472 16.331722 18.060585 301 B 21 "PPO " "    " 1 <>   8.167    2.220  <> <> <> <> <> <> <>   2.8689 
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 2 3 1
+  3 2 10 1
+  4 3 4 1
+  5 3 7 2
+  6 4 5 2
+  7 5 6 1
+  8 6 7 1
+  9 6 11 1
+  10 6 12 1
+  11 7 8 1
+  12 8 9 2
+  13 9 10 1
+  14 9 13 1
+  15 10 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  5
+  3
+  W09IXWMxbltjSF1uYyhjMTIpW0NIMl1OPU4y 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    0.3210 
+    0.3210 
+    0.0000 
+    1.5669 
+  1.88791146064127
+  0
+  0
+    1.8891 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_Metal_State_Penalty
+  :::
+  1 15 46.638000 15.791000 18.567000 301 B 70 "PPO " " O6 " 8 FF2E2E   -1.484    1.500  1 2 4 3409 3407 5 "CCD match"  <>
+  2 2 45.978000 15.175000 17.721000 301 B 10 "PPO " " C6 " 6 1EE11E  <> <> 1 2 4 3410 3408 5 "CCD match"  <>
+  3 2 46.433000 14.097000 16.890000 301 B 10 "PPO " " C5 " 6 1EE11E  <> <> 1 2 4 3411 3409 5 "CCD match"  <>
+  4 25 47.669000 13.483000 16.812000 301 B 38 "PPO " " N7 " 7 2E2EFF  <> <> 1 2 4 3412 3410 5 "CCD match"  <>
+  5 25 47.534000 12.568000 15.908000 301 B 38 "PPO " " N8 " 7 2E2EFF  <> <> 1 2 4 3413 3411 5 "CCD match"  <>
+  6 3 46.262000 12.524000 15.366000 301 B 10 "PPO " " C9 " 6 1EE11E  <> <> 1 2 4 3414 3412 5 "CCD match"  <>
+  7 2 45.529000 13.507000 15.988000 301 B 10 "PPO " " C4 " 6 1EE11E  <> <> 1 2 4 3415 3413 5 "CCD match"  <>
+  8 25 44.190000 13.834000 15.761000 301 B 38 "PPO " " N3 " 7 2E2EFF  <> <> 1 2 4 3416 3414 5 "CCD match"  <>
+  9 2 43.744000 14.872000 16.552000 301 B 10 "PPO " " C2 " 6 1EE11E  <> <> 1 2 4 3417 3415 5 "CCD match"  <>
+  10 25 44.593000 15.517000 17.489000 301 B 38 "PPO " " N1 " 7 2E2EFF    0.871    1.000  1 2 4 3418 3416 5 "CCD match"    1.8891 
+  11 41 46.318544 12.706374 14.282698 301 B 21 "PPO " " H91" 1 FFFFFF  <> <> <> <> <> <> 6839 <> <> <>
+  12 41 45.819725 11.533494 15.548460 301 B 21 "PPO " " H92" 1 FFFFFF  <> <> <> <> <> <> 6840 <> <> <>
+  13 41 42.723370 15.214999 16.467935 301 B 21 "PPO " " H2 " 1 FFFFFF  <> <> <> <> <> <> 6841 <> <> <>
+  14 43 43.607606 13.278333 15.011299 301 B 21 "PPO " "    " 1 <>   7.143    2.220  <> <> <> <> <> <> <>   5.4663 
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 2 3 1
+  3 2 10 1
+  4 3 4 1
+  5 3 7 2
+  6 4 5 2
+  7 5 6 1
+  8 6 7 1
+  9 6 11 1
+  10 6 12 1
+  11 7 8 1
+  12 8 9 1
+  13 8 14 1
+  14 9 10 2
+  15 9 13 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  5
+  3
+  W09IXWMxbltjSF1uYyhjMTIpW0NIMl1OPU4y 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.1475 
+    0.0000 
+    2.1475 
+    1.7754 
+  1.77535924203285
+  -1
+  1
+    0.4751 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[13] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_Metal_State_Penalty
+  :::
+  1 18 46.638000 15.791000 18.567000 301 B 70 "PPO " " O6 " 8 -1 FF2E2E    0.023    2.000  1 2 4 3409 3407 5 "CCD match"  <>
+  2 2 45.978000 15.175000 17.721000 301 B 10 "PPO " " C6 " 6 0 1EE11E  <> <> 1 2 4 3410 3408 5 "CCD match"  <>
+  3 2 46.433000 14.097000 16.890000 301 B 10 "PPO " " C5 " 6 0 1EE11E  <> <> 1 2 4 3411 3409 5 "CCD match"  <>
+  4 25 47.669000 13.483000 16.812000 301 B 38 "PPO " " N7 " 7 0 2E2EFF  <> <> 1 2 4 3412 3410 5 "CCD match"  <>
+  5 25 47.534000 12.568000 15.908000 301 B 38 "PPO " " N8 " 7 0 2E2EFF  <> <> 1 2 4 3413 3411 5 "CCD match"  <>
+  6 3 46.262000 12.524000 15.366000 301 B 10 "PPO " " C9 " 6 0 1EE11E  <> <> 1 2 4 3414 3412 5 "CCD match"  <>
+  7 2 45.529000 13.507000 15.988000 301 B 10 "PPO " " C4 " 6 0 1EE11E  <> <> 1 2 4 3415 3413 5 "CCD match"  <>
+  8 25 44.190000 13.834000 15.761000 301 B 38 "PPO " " N3 " 7 0 2E2EFF    7.143    2.220  1 2 4 3416 3414 5 "CCD match"    0.7310 
+  9 2 43.744000 14.872000 16.552000 301 B 10 "PPO " " C2 " 6 0 1EE11E  <> <> 1 2 4 3417 3415 5 "CCD match"  <>
+  10 25 44.593000 15.517000 17.489000 301 B 38 "PPO " " N1 " 7 0 2E2EFF    8.167    2.220  1 2 4 3418 3416 5 "CCD match"    0.4751 
+  11 41 46.318544 12.706374 14.282698 301 B 21 "PPO " " H91" 1 0 FFFFFF  <> <> <> <> <> <> 6839 <> <> <>
+  12 41 45.819725 11.533494 15.548460 301 B 21 "PPO " " H92" 1 0 FFFFFF  <> <> <> <> <> <> 6840 <> <> <>
+  13 41 42.723370 15.214999 16.467935 301 B 21 "PPO " " H2 " 1 0 FFFFFF  <> <> <> <> <> <> 6841 <> <> <>
+  :::
+ } 
+ m_bond[14] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 2 3 1
+  3 2 10 2
+  4 3 4 1
+  5 3 7 2
+  6 4 5 2
+  7 5 6 1
+  8 6 7 1
+  9 6 11 1
+  10 6 12 1
+  11 7 8 1
+  12 8 9 2
+  13 9 10 1
+  14 9 13 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    0.1986 
+    0.1986 
+    0.0000 
+    0.3329 
+  0.531489854147235
+  -5
+  5
+    0.3326 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.108    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.652    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 18 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"    6.275    0.618 
+  13 18 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"    6.275    0.618 
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    4.135    2.220 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 18 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3438 3436 6 "CCD match"    6.243    0.945 
+  21 18 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"    6.243    0.945 
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  12.252    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.850    0.468 
+  :::
+ } 
+ m_bond[30] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.1875 
+    0.0964 
+    1.0911 
+    1.3880 
+  1.48438346845162
+  -4
+  4
+    1.3877 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.220    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.926    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 18 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"    3.326    0.610 
+  13 16 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 0 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"  <> <>
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    4.135    2.220 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 18 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3438 3436 6 "CCD match"    6.243    0.945 
+  21 18 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"    6.243    0.945 
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  12.105    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.491    0.468 
+  31 42 41.504976 12.353636 8.289208 314 B 21 "PRP " "HO2P" 1 0 FFFFFF  <> <> <> <> 6851 <> <>   6.275    0.708 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 13 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.1875 
+    0.0964 
+    1.0911 
+    1.3880 
+  1.48438346845162
+  -4
+  4
+    1.3877 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.220    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.926    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 16 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 0 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"  <> <>
+  13 18 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"    3.326    0.610 
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    4.135    2.220 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 18 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3438 3436 6 "CCD match"    6.243    0.945 
+  21 18 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"    6.243    0.945 
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  12.105    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.491    0.468 
+  31 42 42.098980 10.508812 10.041575 314 B 21 "PRP " "HO1P" 1 0 FFFFFF  <> <> <> <> 6850 <> <>   6.275    0.708 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 12 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.2311 
+    0.1025 
+    1.1286 
+    1.4353 
+  1.5377959362933
+  -4
+  4
+    1.4350 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.190    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.652    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 18 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"    6.275    0.618 
+  13 18 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"    6.275    0.618 
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    3.204    0.815 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 18 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3438 3436 6 "CCD match"    3.300    0.791 
+  21 16 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 0 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"  <> <>
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  12.145    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.850    0.468 
+  31 42 45.056286 20.604757 13.954366 314 B 21 "PRP " "HO2B" 1 0 FFFFFF  <> <> <> <> 6854 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  31 21 31 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    1.2311 
+    0.1025 
+    1.1286 
+    1.4353 
+  1.5377959362933
+  -4
+  4
+    1.4350 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.190    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.652    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 18 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"    6.275    0.618 
+  13 18 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"    6.275    0.618 
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    3.204    0.815 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 16 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3438 3436 6 "CCD match"  <> <>
+  21 18 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"    3.300    0.791 
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  12.145    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.850    0.468 
+  31 42 46.714216 21.049732 16.269915 314 B 21 "PRP " "HO1B" 1 0 FFFFFF  <> <> <> <> 6853 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 15 16 1
+  25 15 17 2
+  26 15 18 1
+  27 18 19 1
+  28 19 20 1
+  29 19 21 1
+  30 19 22 2
+  31 20 31 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.4904 
+  2.49068955059768
+  -3
+  3
+    2.4901 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.302    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.926    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 16 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 0 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"  <> <>
+  13 18 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"    3.326    0.610 
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    3.204    0.815 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 16 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3438 3436 6 "CCD match"  <> <>
+  21 18 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"    3.300    0.791 
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  11.998    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.491    0.468 
+  31 42 42.098980 10.508812 10.041575 314 B 21 "PRP " "HO1P" 1 0 FFFFFF  <> <> <> <> 6850 <> <>   6.275    0.708 
+  32 42 46.714216 21.049732 16.269915 314 B 21 "PRP " "HO1B" 1 0 FFFFFF  <> <> <> <> 6853 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 12 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 20 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.4904 
+  2.49068955059768
+  -3
+  3
+    2.4901 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.302    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.926    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 18 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"    3.326    0.610 
+  13 16 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 0 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"  <> <>
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    3.204    0.815 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 18 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3438 3436 6 "CCD match"    3.300    0.791 
+  21 16 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 0 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"  <> <>
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  11.998    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.491    0.468 
+  31 42 41.504976 12.353636 8.289208 314 B 21 "PRP " "HO2P" 1 0 FFFFFF  <> <> <> <> 6851 <> <>   6.275    0.708 
+  32 42 45.056286 20.604757 13.954366 314 B 21 "PRP " "HO2B" 1 0 FFFFFF  <> <> <> <> 6854 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 13 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 21 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.4904 
+  2.49068955059768
+  -3
+  3
+    2.4901 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.302    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.926    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 16 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 0 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"  <> <>
+  13 18 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 -1 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"    3.326    0.610 
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    3.204    0.815 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 18 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 -1 FF2E2E  1 2 4 3438 3436 6 "CCD match"    3.300    0.791 
+  21 16 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 0 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"  <> <>
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  11.998    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.491    0.468 
+  31 42 42.098980 10.508812 10.041575 314 B 21 "PRP " "HO1P" 1 0 FFFFFF  <> <> <> <> 6850 <> <>   6.275    0.708 
+  32 42 45.056286 20.604757 13.954366 314 B 21 "PRP " "HO2B" 1 0 FFFFFF  <> <> <> <> 6854 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 12 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 21 32 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ "" 
+  6
+  4
+  W09IXVAoPU8pKFtPSF0pT1tQQEBdKD1PKShbT0hdKU9bQ0BASF0xW0NASF0oW09IXSlbQ0BIXShbT0hdKVtDQEhdKE8xKVtDSDJdT1AoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzFkNm4tZXBpay5tYWUnLCAnLW9tYWUnLCAnMWQ2bi1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzEwJywgJy1waCcsICc3LjAnLCAnLXBodCcsICcyLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+    2.2200 
+    0.0003 
+    2.2196 
+    2.4904 
+  2.49068955059768
+  -3
+  3
+    2.4901 
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 42.678000 16.133000 13.017000 314 B 10 "PRP " " C1 " 6 0 1EE11E  1 2 4 3419 3417 6 "CCD match"  <> <>
+  2 3 42.741000 16.950000 11.753000 314 B 10 "PRP " " C2 " 6 0 1EE11E  1 2 4 3420 3418 6 "CCD match"  <> <>
+  3 3 41.756000 16.342000 10.844000 314 B 10 "PRP " " C3 " 6 0 1EE11E  1 2 4 3421 3419 6 "CCD match"  <> <>
+  4 3 41.116000 15.241000 11.546000 314 B 10 "PRP " " C4 " 6 0 1EE11E  1 2 4 3422 3420 6 "CCD match"  <> <>
+  5 3 41.370000 14.146000 10.761000 314 B 10 "PRP " " C5 " 6 0 1EE11E  1 2 4 3423 3421 6 "CCD match"  <> <>
+  6 16 42.374000 16.897000 14.240000 314 B 70 "PRP " " O1 " 8 0 FF2E2E  1 2 4 3424 3422 6 "CCD match"  <> <>
+  7 16 42.490000 18.380000 11.870000 314 B 70 "PRP " " O2 " 8 0 FF2E2E  1 2 4 3425 3423 6 "CCD match"   -2.302    0.950 
+  8 16 40.724000 17.176000 10.324000 314 B 70 "PRP " " O3 " 8 0 FF2E2E  1 2 4 3426 3424 6 "CCD match"   -1.926    0.950 
+  9 16 41.681000 15.111000 12.877000 314 B 70 "PRP " " O4 " 8 0 FF2E2E  1 2 4 3427 3425 6 "CCD match"  <> <>
+  10 16 40.871000 12.974000 11.160000 314 B 70 "PRP " " O5 " 8 0 FF2E2E  1 2 4 3428 3426 6 "CCD match"  <> <>
+  11 107 40.326000 11.820000 10.094000 314 B 101 "PRP " " P  " 15 0 CC0066  1 7.68 4 3429 3427 6 "CCD match"  <> <>
+  12 18 41.030000 10.580000 10.291000 314 B 70 "PRP " " O1P" 8 -1 FF2E2E  1 6.89 4 3430 3428 6 "CCD match"    3.326    0.610 
+  13 16 40.495000 12.223000 8.705000 314 B 70 "PRP " " O2P" 8 0 FF2E2E  1 3.16 4 3431 3429 6 "CCD match"  <> <>
+  14 15 38.886000 11.688000 10.499000 314 B 70 "PRP " " O3P" 8 0 FF2E2E  1 13.95 4 3432 3430 6 "CCD match"  <> <>
+  15 107 42.732000 18.191000 15.083000 314 B 101 "PRP " " PA " 15 0 CC0066  1 3.99 4 3433 3431 6 "CCD match"  <> <>
+  16 18 41.249000 17.964000 15.587000 314 B 70 "PRP " " O1A" 8 -1 FF2E2E  1 2 4 3434 3432 6 "CCD match"    3.204    0.815 
+  17 15 43.766000 17.323000 15.707000 314 B 70 "PRP " " O2A" 8 0 FF2E2E  1 5.74 4 3435 3433 6 "CCD match"  <> <>
+  18 16 43.543000 19.240000 15.484000 314 B 70 "PRP " " O3A" 8 0 FF2E2E  1 4.37 4 3436 3434 6 "CCD match"  <> <>
+  19 107 44.996000 19.497000 15.898000 314 B 101 "PRP " " PB " 15 0 CC0066  1 4.07 4 3437 3435 6 "CCD match"  <> <>
+  20 16 46.303000 20.083000 16.596000 314 B 70 "PRP " " O1B" 8 0 FF2E2E  1 2 4 3438 3436 6 "CCD match"  <> <>
+  21 18 45.333000 19.675000 14.473000 314 B 70 "PRP " " O2B" 8 -1 FF2E2E  1 2.76 4 3439 3437 6 "CCD match"    3.300    0.791 
+  22 15 45.210000 18.455000 16.806000 314 B 70 "PRP " " O3B" 8 0 FF2E2E  1 2.03 4 3440 3438 6 "CCD match"  <> <>
+  23 41 43.671754 15.684286 13.162290 314 B 21 "PRP " " H1 " 1 0 FFFFFF  <> <> <> <> 6842 <> <> <> <>
+  24 41 43.774859 16.946021 11.377341 314 B 21 "PRP " " H2 " 1 0 FFFFFF  <> <> <> <> 6843 <> <> <> <>
+  25 41 42.322655 16.060735 9.944116 314 B 21 "PRP " " H3 " 1 0 FFFFFF  <> <> <> <> 6844 <> <> <> <>
+  26 41 40.026119 15.333629 11.662533 314 B 21 "PRP " " H4 " 1 0 FFFFFF  <> <> <> <> 6845 <> <> <> <>
+  27 41 40.955881 14.311709 9.755492 314 B 21 "PRP " " H51" 1 0 FFFFFF  <> <> <> <> 6846 <> <> <> <>
+  28 41 42.456576 13.990551 10.688974 314 B 21 "PRP " " H52" 1 0 FFFFFF  <> <> <> <> 6847 <> <> <> <>
+  29 42 43.132440 19.000445 12.512120 314 B 21 "PRP " " HO2" 1 0 FFFFFF  <> <> <> <> 6848 <> <>  11.998    0.580 
+  30 42 40.982665 18.078432 9.750669 314 B 21 "PRP " " HO3" 1 0 FFFFFF  <> <> <> <> 6849 <> <>  12.491    0.468 
+  31 42 41.504976 12.353636 8.289208 314 B 21 "PRP " "HO2P" 1 0 FFFFFF  <> <> <> <> 6851 <> <>   6.275    0.708 
+  32 42 46.714216 21.049732 16.269915 314 B 21 "PRP " "HO1B" 1 0 FFFFFF  <> <> <> <> 6853 <> <>   6.243    0.945 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 6 1
+  3 1 9 1
+  4 1 23 1
+  5 2 3 1
+  6 2 7 1
+  7 2 24 1
+  8 3 4 1
+  9 3 8 1
+  10 3 25 1
+  11 4 5 1
+  12 4 9 1
+  13 4 26 1
+  14 5 10 1
+  15 5 27 1
+  16 5 28 1
+  17 6 15 1
+  18 7 29 1
+  19 8 30 1
+  20 10 11 1
+  21 11 12 1
+  22 11 13 1
+  23 11 14 2
+  24 13 31 1
+  25 15 16 1
+  26 15 17 2
+  27 15 18 1
+  28 18 19 1
+  29 19 20 1
+  30 19 21 1
+  31 19 22 2
+  32 20 32 1
+  :::
+ } 
+} 
+

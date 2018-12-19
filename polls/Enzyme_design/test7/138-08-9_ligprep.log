@@ -1,0 +1,78 @@
+STARTUP COMMAND:
+/home/chunfeng/software/Schrodinger2015/schrodinger2015/macromodel-v108010/bin/Linux-x86_64/ligprep.py -imae 138-08-9.mae -omae 138-08-9_ligprep.mae -g -s 1
+MMSHARE_EXEC: /home/chunfeng/software/Schrodinger2015/schrodinger2015/mmshare-v30010/bin/Linux-x86_64
+STARTUP SCRIPT:
+/home/chunfeng/software/Schrodinger2015/schrodinger2015/macromodel-v108010/bin/Linux-x86_64/ligprep_startup.py
+SCHRODINGER:  /home/chunfeng/software/Schrodinger2015/schrodinger2015
+
+LIGPREP_VERSION  34010
+Ligprep. Copyright Schrodinger, LLC. All rights reserved.
+
+JobID:  chunfeng-0-5bffebe7
+ input and output are 138-08-9.mae 138-08-9_ligprep.mae
+-----------------------------------------
+
+Running ligprep
+  input file: 138-08-9.mae
+  output file: 138-08-9_ligprep.mae
+  # of input structures: 1
+Options:
+  -imae 138-08-9.mae -omae 138-08-9_ligprep.mae -g -s 1
+--------------------------------
+ligprep running: maelabel
+maelabel # of output structures: 1
+--------------------------------
+
+ligprep running: applyhtreat
+applyhtreat 138-08-9_ligprep_mae.maegz 138-08-9_ligprep_htout.maegz All-None all 1 > 138-08-9_ligprep_ht.log 2>&1
+applyhtreat # of output structures: 1
+--------------------------------
+
+ligprep running: desalter
+desalter 138-08-9_ligprep_htout.maegz 138-08-9_ligprep_dsout.maegz > 138-08-9_ligprep_ds.log 2>&1
+desalter # of output structures: 1
+--------------------------------
+
+ligprep running: neutralizer
+neutralizer 138-08-9_ligprep_dsout.maegz 138-08-9_ligprep_nuout.maegz > 138-08-9_ligprep_nu.log 2>&1
+neutralizer # of output structures: 1
+--------------------------------
+
+ligprep running: tautomerizer
+tautomerizer -n 8 -p 0.01 -ma 200 138-08-9_ligprep_nuout.maegz 138-08-9_ligprep_taout.maegz > 138-08-9_ligprep_ta.log 2>&1
+tautomerizer # of output structures: 1
+--------------------------------
+
+ligprep running: stereoizer
+stereoizer -n 1 -g 138-08-9_ligprep_taout.maegz 138-08-9_ligprep_stout.maegz > 138-08-9_ligprep_st.log 2>&1
+stereoizer # of output structures: 1
+--------------------------------
+
+ligprep running: ring_conf
+ring_conf -l 3 -n 1 138-08-9_ligprep_stout.maegz 138-08-9_ligprep_rcout.maegz > 138-08-9_ligprep_rc.log 2>&1
+ring_conf # of output structures: 1
+--------------------------------
+
+ligprep running: premin
+OK structures in:        138-08-9_ligprep_prout.maegz
+problematic structures in: 138-08-9_ligprep_prout_bad.maegz
+premin -lic ligprep -m filter -f 14 -s 138-08-9_ligprep_prout.maegz -u 138-08-9_ligprep_prout_bad.maegz 138-08-9_ligprep_rcout.maegz > 138-08-9_ligprep_pr.log 2>&1
+premin # of output structures: 1
+--------------------------------
+
+ligprep running: bmin
+input file: 138-08-9_ligprep_prout.maegz
+output file : 138-08-9_ligprep_bmout.maegz
+bmin -LOCAL -INTERVAL 5 -NO_REDIRECT 138-08-9_ligprep_bmrun > 138-08-9_ligprep_bm.log 2>&1
+bmin # of output structures: 1
+Copying 138-08-9_ligprep_bmout.maegz to 138-08-9_ligprep.mae
+----------------------------------------
+ligprep  complete.
+ # of structures in output file ( 138-08-9_ligprep.mae ): 1 
+----------------------------------------
+
+Summary
+# of processed structures in  138-08-9_ligprep.mae :  1
+# of failed structures in  138-08-9_ligprep-failed.mae :  0
+----------------------------------------
+Time: 0 hours 0 minutes  13.3 seconds

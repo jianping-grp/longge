@@ -1,0 +1,69 @@
+Backend command (used for starting the backend in the job directory):
+/home/jianping/Programs/Schrodinger_2018/mmshare-v4.1/python/scripts/residue_scanning_backend.py -jobname 1d6n_mut -residues A:150 -mut ALA -refine_mut prime_sidechain_bb -dist 5.0 1d6n_mut-2.pdb -NOJOBID
+
+Job name: 1d6n_mut
+This job will run protein stability calculations
+Refinement method: prime_sidechain_bb
+Will use refinement distance of 5.000000A
+Will use non-bonded cutoff for Python Minimizer of 40.000000A
+Analyzing requested mutations list...
+  Maximum number of concurrent mutations: 1
+  List of 1 potential mutants
+      1 A:150->ALA
+
+Run Prime Residue Mutation...
+WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: with title: 1D6N
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  4589 6733 
+mmlewis warning: Now attempting to fix the lewis structure.
+WARNING mmlewis warning: A valid lewis structure was successfully generated.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+WARNING : MMCT ERROR(-4): mmct_atom_delete_bond(): 
+	0 is an invalid atom index for CT 37.
+TIME for Prime Residue Mutation 1750.931619 seconds
+
+References (refined structures) is being written to: 1d6n_mut-refs.maegz
+
+Output is being written to: 1d6n_mut-out.maegz
+
+Number of mutants generated: 1
+
+Elapsed time: 1753.867686 seconds.

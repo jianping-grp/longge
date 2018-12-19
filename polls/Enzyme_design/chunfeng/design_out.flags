@@ -1,0 +1,31 @@
+#-s MATCH_RESULTS.pdb           #输入文件，含配体的pdb
+-extra_res_fa design_138-08-9.params  #配体参数文件
+#-resfile <name of resfile>  #自己指定哪些残基哪些位置用于设计（设置了AUTO，该文件中未指定的自主设计），我没用，直接用了cut值设计
+
+-enzdes                    #启用enzyme design的参数
+ -detect_design_interface  #自主判断可设计的区域
+ -cut1 6         #designable default = 6.0
+ -cut2 8         #designable default = 8.0
+ -cut3 10        #repackable default = 10.0
+ -cut4 12        #repackable default = 12.0
+ -cst_opt           #启用优化（非催化残基的活性中心残基突变成ALA，把配体移到与催化残基合适的位置）
+ -bb_min            #优化中允许骨架有轻微柔性
+ -chi_min           #优化中允许催化残基的二面角移动
+
+ -cst_design              #启用周期序列设计
+ -design_min_cycles 2     #序列设计的圈数（2-4）
+ -lig_packer_weight 1.8   #在序列设计选择计算时，决定蛋白受体VS蛋白蛋白相互作用的相对重要性
+ -cst_min                 #序列设计之后引发优化
+
+ -cstfile design.cst   #指定cst文件 
+-packing:ex1
+-packing:ex2  
+-packing:use_input_sc  
+-packing:soft_rep_design    #使用soft_repulsive力场
+-packing:linmem_ig 10
+
+#-out:file:o enz_score_138-08-9.out       #指定输出的打分文件
+#-final_repack_without_ligand    #对设计后的结构repack并评估RMSD，如果有多个配体用该选项会出错，所以我没用           
+-nstruct 5                    #每个蛋白产生n个pdb
+
+-parser_read_cloud_pdb   #read cloud format PDB for enzdes in rosetta scripts

@@ -1,0 +1,6 @@
+scipy
+django
+djangorestframework
+dynamic-rest
+numpy
+biopython
